@@ -9,7 +9,99 @@
     <title>Conditional Profile Card</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <!-- Interactive Form -->
+        <form class="form" action="" method="post">
+            <div class="halfform">
+                <!-- Name -->
+                <fieldset class="field">
+                    <label class="label" for="nameinput" id="namelabel">Name</label>
+                    <input type="text" class="textinput" name="nameinput" id="nameinput" placeholder="Name" minlength="3" maxlength="16">
+                </fieldset>
+                <!-- Last Name -->
+                <fieldset class="field">
+                    <label class="label" for="lastnameinput" id="lastnamelabel">Last Name</label>
+                    <input type="text" class="textinput" name="lastnameinput" id="lastnameinput" placeholder="Last Name" minlength="3" maxlength="16">
+                </fieldset>
+                <!-- Twitter -->
+                <fieldset class="field">
+                    <label class="label" for="twitterinput" id="twitterlabel">Twitter</label>
+                    <input type="text" class="textinput" name="twitterinput" id="twitterinput" placeholder="twitteruser" minlength="3" maxlength="16">
+                </fieldset>
+                <!-- GitHub -->
+                <fieldset class="field">
+                    <label class="label" for="githubinput" id="githublabel">GitHub</label>
+                    <input type="text" class="textinput" name="githubinput" id="githubinput" placeholder="githubuser" minlength="3" maxlength="16">
+                </fieldset>
+                <!-- LinkedIn -->
+                <fieldset class="field">
+                    <label class="label" for="linkedininput" id="linkedinlabel">LinkedIn</label>
+                    <input type="text" class="textinput" name="linkedininput" id="linkedininput" placeholder="linkedinuser" minlength="3" maxlength="16">
+                </fieldset>
+                <!-- Instagram -->
+                <fieldset class="field">
+                    <label class="label" for="instagraminput" id="instagramlabel">Instagram</label>
+                    <input type="text" class="textinput" name="instagraminput" id="instagraminput" placeholder="instagramuser" minlength="3" maxlength="16">
+                </fieldset>
+            </div>
+            <div class="halfform">
+                <!-- Include Cover -->
+                <fieldset class="field field2">
+                    <label class="label" for="coverbutton" id="coverlabel">Include Cover</label>
+                    <select class="select" name="coverbutton" id="coverbutton">
+                        <option value="select" selected disabled>Select</option>
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                </fieldset>
+                <!-- Position -->
+                <fieldset class="field field2">
+                    <label class="label" for="senioritybutton" id="senioritylabel">Seniority</label>
+                    <select class="select" name="senioritybutton" id="senioritybutton">
+                        <option value="select" selected disabled>Select</option>
+                        <option value="junior">Junior</option>
+                        <option value="midlevel">Mid-Level</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </fieldset>
+                <!-- Role -->
+                <fieldset class="field field2">
+                    <label class="label" for="rolebutton" id="rolelabel">Role</label>
+                    <select class="select" name="rolebutton" id="rolebutton">
+                        <option value="select" selected disabled>Select</option>
+                        <option value="fullstack">Full Stack</option>
+                        <option value="frontend">Frontend</option>
+                        <option value="backend">Backend</option>
+                    </select>
+                </fieldset>
+                <!-- City -->
+                <fieldset class="field field2">
+                    <label class="label" for="citybutton" id="citylabel">City</label>
+                    <select class="select" name="citybutton" id="citybutton">
+                        <option value="select" selected disabled>Select</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="cadiz">Cadiz</option>
+                    </select>
+                </fieldset>
+                <!-- Country -->
+                <fieldset class="field field2">
+                    <label class="label" for="countrybutton" id="countrylabel">Country</label>
+                    <select class="select" name="countrybutton" id="countrybutton">
+                        <option value="select" selected disabled>Select</option>
+                        <option value="spain">Spain</option>
+                        <option value="eeuu">EEUU</option>
+                        <option value="switzerland">Switzerland</option>
+                    </select>
+                </fieldset>
+            </div>
+        </form>
+        <div class="cardcontainer">
+            <div class="card">
+                contenido
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
