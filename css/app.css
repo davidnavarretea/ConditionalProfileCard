@@ -1,0 +1,61 @@
+/* Formulario */
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #313132;
+    min-height: 25%;
+}
+.halfform {
+    display: flex;
+    justify-content: center;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+    min-width: 10rem;
+    margin: 3rem;
+    padding: 0;
+}
+.field2 {
+    margin-top: 0;
+}
+.textinput {
+    max-width: 12rem;
+    font-size: 1.3rem;
+    height: 1.9rem;
+    border-radius: 2rem;
+    text-align: center;
+    color: #313132;
+}
+.label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #D6D6D6;
+}
+.select {
+    border-radius: 2rem;
+    text-align: center;
+    padding: 0 0.2rem;
+    background-color: white;
+}
+.select option {
+    background-color: #313132;
+    color: white;
+}
+.select option:active {
+    color: black;
+}
+/* Card */
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63rem;
+}
+.card {
+    background-color: blueviolet;
+    height: 40rem;
+    width: 30rem;
+}
