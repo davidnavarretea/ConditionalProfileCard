@@ -32,7 +32,6 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -347,4 +346,11 @@ template {
 a {
   text-decoration: none;
   color:black;
+}
+/* Remove focus */
+*:focus {
+  outline: none;
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0;
 }
