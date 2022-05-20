@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     background-color: #313132;
-    min-height: 25%;
 }
 .halfform {
     display: flex;
@@ -44,9 +43,6 @@
     background-color: #313132;
     color: white;
 }
-.select option:active {
-    color: black;
-}
 /* Card */
 .cardcontainer {
     display: flex;
@@ -55,7 +51,24 @@
     height: 63rem;
 }
 .card {
-    background-color: blueviolet;
-    height: 40rem;
-    width: 30rem;
+    box-shadow: 0px 0px 5px 1px black;
+    height: 47rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+.backgroundcard {
+    background-image: url(../img/bg.webp);
+    background-size: cover;
+    background-position: bottom;
+    height: 42%;
+}
+.restcard {
+    height: 58%;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 5rem;
 }
