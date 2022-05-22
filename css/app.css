@@ -58,8 +58,10 @@
     display: flex;
     flex-direction: column;
 }
-.backgroundcard {
+.backgroundcardurl {
     background-image: url(../img/bg.webp);
+}
+.backgroundcard {
     background-size: cover;
     background-position: bottom;
     height: 45%;
@@ -108,7 +110,7 @@
     left: 3.22rem;
     top: 1.5rem;
     box-shadow: 0px 0px 7px 1px black;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .icon {
     filter: invert(100%) sepia(16%) saturate(0%) hue-rotate(123deg) brightness(101%) contrast(101%);
