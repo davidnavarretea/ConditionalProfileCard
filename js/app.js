@@ -79,3 +79,16 @@ countryinput.addEventListener('change', e => {
 coverinput.addEventListener('change', e => {
     coveroutput.classList.toggle('backgroundcardurl')
 })
+/* If empty inputs... */
+/* Name */
+nameinput.addEventListener('input', e => {
+    if(e.target.value.length === 0){
+        nameoutput.textContent = 'Name'
+    }
+})
+/* Last Name */
+lastnameinput.addEventListener('input', e => {
+    if(e.target.value.length === 0){
+        lastnameoutput.textContent = 'Last Name'
+    }
+})
